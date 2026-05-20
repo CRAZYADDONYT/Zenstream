@@ -1,0 +1,19 @@
+// entities/User.json
+
+{
+  "name": "User",
+  "type": "object",
+  "properties": {
+    "role": {
+      "type": "string",
+      "enum": [
+        "admin",
+        "user"
+      ],
+      "default": "user"
+    },
+    "profile_picture": {
+      "type": "string"
+    }
+  }
+}
