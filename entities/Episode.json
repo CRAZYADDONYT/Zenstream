@@ -1,0 +1,37 @@
+// entities/Episode.json
+
+{
+  "name": "Episode",
+  "type": "object",
+  "properties": {
+    "anime_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "episode_number": {
+      "type": "number"
+    },
+    "description": {
+      "type": "string"
+    },
+    "video_url": {
+      "type": "string"
+    },
+    "embed_url": {
+      "type": "string"
+    },
+    "thumbnail": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "anime_id",
+    "title",
+    "episode_number"
+  ]
+}
