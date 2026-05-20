@@ -1,0 +1,28 @@
+// entities/Review.json
+
+{
+  "name": "Review",
+  "type": "object",
+  "properties": {
+    "anime_id": {
+      "type": "string"
+    },
+    "user_email": {
+      "type": "string"
+    },
+    "user_name": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "number"
+    },
+    "content": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "anime_id",
+    "user_email",
+    "rating"
+  ]
+}
