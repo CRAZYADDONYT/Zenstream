@@ -1,0 +1,62 @@
+// entities/Anime.json
+
+{
+  "name": "Anime",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "cover_image": {
+      "type": "string"
+    },
+    "banner_image": {
+      "type": "string"
+    },
+    "logo_image": {
+      "type": "string"
+    },
+    "genres": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "airing",
+        "completed",
+        "upcoming"
+      ],
+      "default": "airing"
+    },
+    "rating": {
+      "type": "number"
+    },
+    "year": {
+      "type": "number"
+    },
+    "episode_count": {
+      "type": "number"
+    },
+    "is_featured": {
+      "type": "boolean",
+      "default": false
+    },
+    "views": {
+      "type": "number",
+      "default": 0
+    },
+    "likes": {
+      "type": "number",
+      "default": 0
+    }
+  },
+  "required": [
+    "title"
+  ]
+}
