@@ -1,0 +1,22 @@
+// entities/Watchlist.json
+
+{
+  "name": "Watchlist",
+  "type": "object",
+  "properties": {
+    "user_email": {
+      "type": "string"
+    },
+    "anime_id": {
+      "type": "string"
+    },
+    "added_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "user_email",
+    "anime_id"
+  ]
+}
