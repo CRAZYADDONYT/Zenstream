@@ -1,0 +1,32 @@
+// entities/WatchHistory.json
+
+{
+  "name": "WatchHistory",
+  "type": "object",
+  "properties": {
+    "user_email": {
+      "type": "string"
+    },
+    "anime_id": {
+      "type": "string"
+    },
+    "episode_id": {
+      "type": "string"
+    },
+    "episode_number": {
+      "type": "number"
+    },
+    "watched_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "timestamp_seconds": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "user_email",
+    "anime_id",
+    "episode_id"
+  ]
+}
